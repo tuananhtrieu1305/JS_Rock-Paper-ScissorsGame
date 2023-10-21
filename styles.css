@@ -157,3 +157,47 @@ label {
   font-size: inherit;
   -webkit-tap-highlight-color: transparent;
 }
+body {
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Brush Script MT", cursive;
+}
+.container {
+  background-color: #64ca6d;
+  border: 3px solid rgb(159, 183, 21);
+  border-radius: 20px;
+  padding: 60px;
+  font-size: 50px;
+  text-align: center;
+}
+#playerText,
+#computerText,
+#resultText {
+  margin-bottom: 20px;
+  user-select: none;
+}
+#playerText {
+  color: rgb(211, 3, 3);
+}
+#computerText {
+  color: blue;
+}
+.choiceBtn {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  background-color: #b4e016;
+  border-radius: 8px;
+  user-select: none;
+}
+.choiceBtn + .choiceBtn {
+  margin-left: 10px;
+}
